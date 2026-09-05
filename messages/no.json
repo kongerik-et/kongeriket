@@ -15,7 +15,7 @@
     "members": "Medlemmer",
     "account": "Konto",
     "logout": "Logg ut",
-    "tagline": "Europeisk strategi, suverenitet, sivilisatorisk fornyelse"
+    "tagline": "Harde sannheter. Europeisk strategi. Ett offentlig ansikt."
   },
   "footer": {
     "later": "Kommer senere",
@@ -23,25 +23,28 @@
     "podcast": "Podcast",
     "events": "Arrangementer",
     "privacy": "Personvern",
-    "tag": "Grunnlagt av Erik Dale. Lite verksted. Ett offentlig ansikt."
+    "tag": "Erik Dales verksted. Lite. Ærlig. Ett offentlig ansikt."
   },
   "home": {
-    "kicker": "Europeisk strategi",
-    "lede": "Forskning og argument for et Europa verdt å overlate til neste generasjon. Gründerstyrt. Kildet. Ingen falsk megastab.",
-    "subscribeCta": "Bli med",
-    "aboutLink": "Misjon",
-    "feedTitle": "Siste",
-    "allPublications": "Alle publikasjoner",
-    "feedNote": "En kort hylle. Stubber er merket. Vi finner ikke på et arkiv vi ikke har skrevet.",
-    "cta": "Bli med på listen. Få de tidlige briefene når vi publiserer dem.",
+    "kicker": "Av Erik Dale",
+    "headline": "Europa reddes ikke med mykt språk.",
+    "lede": "Harde fakta. Klare påstander. Europeisk strategi, suverenitet og sivilisatorisk fornyelse, for dem som fortsatt vil ha et Europa verdt å overlate videre.",
+    "founder": "Kongeriket er Erik Dales verksted. Ett offentlig ansikt. Ingen anonym styre. Ingen falsk megastab.",
+    "subscribeCta": "Få de tidlige briefene",
+    "aboutLink": "Hvorfor dette finnes",
+    "feedTitle": "På bordet",
+    "allPublications": "Hele hyllen",
+    "feedNote": "Kort med vilje. Stubber er merket. Vi finner ikke på et arkiv.",
+    "featuredLabel": "Ledende",
+    "cta": "Bli med på listen. Tidlige brief når vi publiserer dem. Ingenting vi ikke har skrevet.",
     "missionTitle": "Det vi står for",
-    "mission": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon.",
+    "mission": "Sikre et Europa verdt å overlate til neste generasjon.",
     "latest": "Siste brief",
     "readBrief": "Les eksempelbriefen"
   },
   "about": {
-    "title": "Om / Misjon",
-    "body": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.\n\nNorge er tidlig varslingsgrunn, ikke et land som allerede har falt. Vestlige hardcase (Storbritannia teller som Europa) er et forhåndsbilde av det som venter hvis ingenting endres. Øst- og Sentral-Europa holder linjen. Vi handler paneuropeisk uten å likestille Europa med EU.\n\nGrunnlagt av Erik Dale. Lite, ærlig verksted. Ett offentlig ansikt."
+    "title": "Hvorfor dette finnes",
+    "body": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.\n\nNorge er tidlig varslingsgrunn, ikke et land som allerede har falt. Vestlige hardcase (Storbritannia teller som Europa) er et forhåndsbilde av det som venter hvis ingenting endres. Øst- og Sentral-Europa holder linjen. Vi handler paneuropeisk uten å likestille Europa med EU.\n\nDette er Erik Dales verksted. Lite. Ærlig. Ett offentlig ansikt. Arbeidet bærer hans navn."
   },
   "research": {
     "title": "Forskning",
@@ -137,7 +140,7 @@
   },
   "publications": {
     "title": "Publikasjoner",
-    "intro": "Brief, analyse, papers, State of Europe-notater, og podcast når den finnes. Dato og type først. Erik Dale er den offentlige forfatteren.",
+    "intro": "Brief, analyse, papers, State of Europe-notater, og podcast når den finnes. Dato og type ligger her. Erik Dale er den offentlige forfatteren. Taksonomien bor på denne hyllen. Forsiden leder med påstander.",
     "back": "Alle publikasjoner",
     "stubBody": "Full tekst er ikke på hyllen ennå. Denne siden holder påstand, dato og type, så stigen er synlig uten å late som arkivet er ferdig."
   }

@@ -38,7 +38,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="flex min-h-screen flex-col font-sans">
         <NextIntlClientProvider messages={messages}>
           <Header signedIn={signedIn} />
-          <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-12">{children}</main>
+          <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 md:py-10">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

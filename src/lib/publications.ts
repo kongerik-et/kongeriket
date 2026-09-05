@@ -37,11 +37,11 @@ export const PUBLICATIONS: Publication[] = [
     date: "2026-09-01",
     author: "Erik Dale",
     title: {
-      en: "What holding the line means",
-      no: "Hva det betyr å holde linjen",
+      en: "Holding the line is not nostalgia",
+      no: "Å holde linjen er ikke nostalgi",
     },
     dek: {
-      en: "Eastern and Central Europe are not a museum of the past. They are the present test of whether Europe still means a people that can decide.",
+      en: "Eastern and Central Europe are not a museum. They are the live test of whether Europe still means a people that can decide.",
       no: "Øst- og Sentral-Europa er ikke et museum. De er dagens test på om Europa fortsatt betyr et folk som kan bestemme.",
     },
     tags: {
@@ -56,12 +56,12 @@ export const PUBLICATIONS: Publication[] = [
     date: "2026-08-20",
     author: "Erik Dale",
     title: {
-      en: "State of Europe (sample frame)",
-      no: "State of Europe (eksempelramme)",
+      en: "State of Europe: what we will count",
+      no: "State of Europe: det vi skal telle",
     },
     dek: {
-      en: "A recurring ledger of hard facts: demography, cohesion, borders, capacity. This entry is a frame, not a finished report.",
-      no: "Et tilbakevendende regnskap over harde fakta: demografi, samhold, grenser, kapasitet. Denne posten er en ramme, ikke en ferdig rapport.",
+      en: "Demography, cohesion, borders, capacity. A recurring ledger of hard facts. This entry is a frame, not a finished report.",
+      no: "Demografi, samhold, grenser, kapasitet. Et tilbakevendende regnskap over harde fakta. Denne posten er en ramme, ikke en ferdig rapport.",
     },
     tags: {
       en: ["State of Europe", "method"],

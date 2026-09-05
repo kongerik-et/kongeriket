@@ -14,6 +14,10 @@
   body {
     @apply bg-paper text-ink font-sans antialiased;
   }
+  ::selection {
+    background: color-mix(in srgb, var(--color-signal) 28%, transparent);
+    color: var(--color-ink);
+  }
   a {
     @apply underline-offset-4;
   }

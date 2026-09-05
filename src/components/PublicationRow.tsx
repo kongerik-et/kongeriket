@@ -14,14 +14,25 @@ function formatDate(iso: string, locale: string) {
 export function PublicationRow({
   item,
   locale,
+  featured = false,
 }: {
   item: Publication;
   locale: string;
+  featured?: boolean;
 }) {
   const loc = locale === "no" ? "no" : "en";
+  const titleClass = featured
+    ? "font-serif text-3xl leading-[1.12] tracking-tight text-ink group-hover:text-signal md:text-4xl"
+    : "font-serif text-2xl leading-snug tracking-tight text-ink group-hover:text-signal md:text-[1.7rem]";
   const inner = (
-    <article className="group grid gap-3 border-b border-fog py-8 md:grid-cols-[7rem_1fr] md:gap-8">
-      <div className="text-sm text-steel">{formatDate(item.date, locale)}</div>
+    <article
+      className={
+        featured
+          ? "group grid gap-3 border-b-2 border-ink bg-ink/[0.03] py-7 md:grid-cols-[7.5rem_1fr] md:gap-8 md:border-l-4 md:border-l-signal md:pl-6"
+          : "group grid gap-2 border-b border-fog py-6 md:grid-cols-[7.5rem_1fr] md:gap-8"
+      }
+    >
+      <div className="text-sm font-medium text-steel">{formatDate(item.date, locale)}</div>
       <div className="min-w-0 space-y-2">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           <TypeBadge type={item.type} locale={locale} />
@@ -36,12 +47,18 @@ export function PublicationRow({
             </span>
           ) : null}
         </div>
-        <h2 className="font-serif text-2xl leading-snug text-ink group-hover:text-signal md:text-[1.65rem]">
-          {item.title[loc]}
-        </h2>
-        <p className="max-w-2xl text-[1.05rem] leading-relaxed text-steel">{item.dek[loc]}</p>
-        <p className="text-sm text-steel">{item.author}</p>
-        <ul className="flex flex-wrap gap-2 pt-1">
+        <h2 className={titleClass}>{item.title[loc]}</h2>
+        <p
+          className={
+            featured
+              ? "max-w-2xl text-lg leading-snug text-ink/80"
+              : "max-w-2xl text-[1.05rem] leading-snug text-steel"
+          }
+        >
+          {item.dek[loc]}
+        </p>
+        <p className="text-sm font-medium text-ink">{item.author}</p>
+        <ul className="flex flex-wrap gap-2 pt-0.5">
           {item.tags[loc].map((tag) => (
             <li key={tag} className="text-xs text-steel">
               #{tag}
@@ -53,7 +70,7 @@ export function PublicationRow({
   );
 
   if (item.comingSoon) {
-    return <div className="opacity-80">{inner}</div>;
+    return <div className="opacity-75">{inner}</div>;
   }
 
   return (

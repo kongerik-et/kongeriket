@@ -21,33 +21,37 @@ export function Header({ signedIn }: { signedIn: boolean }) {
   }
 
   return (
-    <header className="border-b border-fog">
-      <div className="mx-auto flex max-w-5xl flex-wrap items-baseline justify-between gap-6 px-4 py-6">
+    <header className="border-b-2 border-ink">
+      <div className="h-1 w-full bg-signal" />
+      <div className="mx-auto flex max-w-5xl flex-wrap items-end justify-between gap-6 px-4 py-5">
         <div className="space-y-1">
-          <Link href="/" className="font-serif text-[1.35rem] tracking-tight no-underline hover:text-ink">
+          <Link
+            href="/"
+            className="font-serif text-[1.75rem] leading-none tracking-tight text-ink no-underline hover:text-signal"
+          >
             Kongeriket
           </Link>
-          <p className="hidden max-w-sm text-xs leading-snug text-steel sm:block">{t("tagline")}</p>
+          <p className="hidden max-w-xs text-xs leading-snug text-steel sm:block">{t("tagline")}</p>
         </div>
-        <nav className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-steel">
+        <nav className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-ink">
           {links.map((item) => (
-            <Link key={item.key} href={item.href} className="no-underline hover:text-ink">
+            <Link key={item.key} href={item.href} className="no-underline hover:text-signal">
               {t(item.key)}
             </Link>
           ))}
           {signedIn ? (
-            <Link href="/account" className="no-underline hover:text-ink">
+            <Link href="/account" className="no-underline hover:text-signal">
               {t("account")}
             </Link>
           ) : (
-            <Link href="/login" className="no-underline hover:text-ink">
+            <Link href="/login" className="no-underline hover:text-signal">
               {t("login")}
             </Link>
           )}
           <button
             type="button"
             onClick={() => switchLocale(locale === "en" ? "no" : "en")}
-            className="uppercase tracking-wide text-steel hover:text-ink"
+            className="rounded-sm border border-ink/30 px-2 py-0.5 text-xs uppercase tracking-wide text-ink hover:border-signal hover:text-signal"
           >
             {locale === "en" ? "NO" : "EN"}
           </button>

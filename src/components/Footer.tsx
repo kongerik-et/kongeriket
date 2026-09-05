@@ -1,15 +1,21 @@
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 
 export async function Footer() {
   const t = await getTranslations("footer");
   return (
-    <footer className="mt-auto border-t border-fog">
-      <div className="mx-auto flex max-w-5xl flex-col gap-3 px-4 py-8 text-sm text-steel">
-        <p className="font-serif text-ink">Kongeriket</p>
-        <p>{t("tag")}</p>
+    <footer className="mt-auto border-t-2 border-ink">
+      <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-7 text-sm text-steel">
+        <p className="font-serif text-xl text-ink">Kongeriket</p>
+        <p className="max-w-xl text-ink/80">{t("tag")}</p>
         <p>
           <span className="mr-2">{t("later")}:</span>
           {t("papers")} · {t("podcast")} · {t("events")} · {t("privacy")}
+        </p>
+        <p className="pt-1">
+          <Link href="/about" className="font-medium text-signal no-underline hover:opacity-80">
+            Erik Dale
+          </Link>
         </p>
       </div>
     </footer>
