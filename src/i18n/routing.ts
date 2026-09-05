@@ -8,6 +8,11 @@ export const routing = defineRouting({
     "/": "/",
     "/about": { en: "/about", no: "/om" },
     "/research": { en: "/research", no: "/forskning" },
+    "/publications": { en: "/publications", no: "/publikasjoner" },
+    "/publications/[slug]": {
+      en: "/publications/[slug]",
+      no: "/publikasjoner/[slug]",
+    },
     "/briefs": { en: "/briefs", no: "/brief" },
     "/contact": { en: "/contact", no: "/kontakt" },
     "/subscribe": { en: "/subscribe", no: "/bli-med" },

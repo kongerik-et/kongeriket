@@ -7,13 +7,15 @@
     "home": "Hjem",
     "about": "Om",
     "research": "Forskning",
+    "publications": "Publikasjoner",
     "briefs": "Brief",
     "contact": "Kontakt",
     "subscribe": "Bli med",
     "login": "Logg inn",
     "members": "Medlemmer",
     "account": "Konto",
-    "logout": "Logg ut"
+    "logout": "Logg ut",
+    "tagline": "Europeisk strategi, suverenitet, sivilisatorisk fornyelse"
   },
   "footer": {
     "later": "Kommer senere",
@@ -24,12 +26,18 @@
     "tag": "Grunnlagt av Erik Dale. Lite verksted. Ett offentlig ansikt."
   },
   "home": {
+    "kicker": "Tenketank",
+    "lede": "Forskning og argument for et Europa verdt å overlate til neste generasjon. Gründerstyrt. Kildet. Ingen falsk megastab.",
+    "subscribeCta": "Bli med",
+    "aboutLink": "Misjon",
+    "feedTitle": "Siste",
+    "allPublications": "Alle publikasjoner",
+    "feedNote": "En kort hylle. Stubber er merket. Vi finner ikke på et arkiv vi ikke har skrevet.",
     "cta": "Bli med på listen. Få de tidlige briefene når vi publiserer dem.",
     "missionTitle": "Det vi står for",
-    "mission": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.",
+    "mission": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon.",
     "latest": "Siste brief",
-    "readBrief": "Les eksempelbriefen",
-    "subscribeCta": "Bli med"
+    "readBrief": "Les eksempelbriefen"
   },
   "about": {
     "title": "Om / Misjon",
@@ -37,7 +45,33 @@
   },
   "research": {
     "title": "Forskning",
-    "intro": "Setene vokser med arbeidet. Navnene under er plassholdere i fase 1.",
+    "intro": "Arbeidet vokser etter sete og form. Formene under er innholdsstigen. Setene er navngitte plassholdere til arbeidet fyller dem.",
+    "ladderTitle": "Innholdsstige",
+    "ladderIntro": "Kortere stykker kommer først. Lengre former venter til det er noe som tåler lengden.",
+    "ladder": [
+      {
+        "name": "Analyse",
+        "blurb": "Korte, skarpe lesninger. Én påstand, kildet."
+      },
+      {
+        "name": "Brief",
+        "blurb": "Operative notater for dem som trenger den tidlige utgaven."
+      },
+      {
+        "name": "Paper",
+        "blurb": "Lengre argument. Sjelden før arbeidet fortjener det."
+      },
+      {
+        "name": "State of Europe",
+        "blurb": "Tilbakevendende regnskap over harde fakta, ikke stemning."
+      },
+      {
+        "name": "Podcast",
+        "blurb": "Kommer. Lyd følger briefene."
+      }
+    ],
+    "seatsTitle": "Fremtidige seter",
+    "seatsIntro": "Navnene under er plassholdere i fase 1.",
     "seats": [
       {
         "slug": "demography",
@@ -55,7 +89,8 @@
         "blurb": "Det en sivilisasjon gir videre, og det den svikter å lære."
       }
     ],
-    "stub": "Seteside kommer senere."
+    "stub": "Seteside kommer senere.",
+    "toPublications": "Se publikasjoner"
   },
   "briefs": {
     "title": "Brief",
@@ -99,5 +134,11 @@
     "intro": "Tidlige brief og notater når vi publiserer dem. Ingen falsk community-lag.",
     "needLogin": "Medlemsområde. Logg inn for å fortsette.",
     "empty": "Ingen tidlige brief ennå. Når vi publiserer, lander de her først."
+  },
+  "publications": {
+    "title": "Publikasjoner",
+    "intro": "Brief, analyse, papers, State of Europe-notater, og podcast når den finnes. Dato og type først. Erik Dale er den offentlige forfatteren.",
+    "back": "Alle publikasjoner",
+    "stubBody": "Full tekst er ikke på hyllen ennå. Denne siden holder påstand, dato og type, så stigen er synlig uten å late som arkivet er ferdig."
   }
 }

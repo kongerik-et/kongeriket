@@ -4,12 +4,10 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 
 const links = [
-  { href: "/about" as const, key: "about" as const },
   { href: "/research" as const, key: "research" as const },
-  { href: "/briefs" as const, key: "briefs" as const },
-  { href: "/members" as const, key: "members" as const },
+  { href: "/publications" as const, key: "publications" as const },
+  { href: "/about" as const, key: "about" as const },
   { href: "/subscribe" as const, key: "subscribe" as const },
-  { href: "/contact" as const, key: "contact" as const },
 ];
 
 export function Header({ signedIn }: { signedIn: boolean }) {
@@ -24,11 +22,14 @@ export function Header({ signedIn }: { signedIn: boolean }) {
 
   return (
     <header className="border-b border-fog">
-      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-4 py-5">
-        <Link href="/" className="font-serif text-xl tracking-tight no-underline hover:text-ink">
-          Kongeriket
-        </Link>
-        <nav className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-steel">
+      <div className="mx-auto flex max-w-5xl flex-wrap items-baseline justify-between gap-6 px-4 py-6">
+        <div className="space-y-1">
+          <Link href="/" className="font-serif text-[1.35rem] tracking-tight no-underline hover:text-ink">
+            Kongeriket
+          </Link>
+          <p className="hidden max-w-sm text-xs leading-snug text-steel sm:block">{t("tagline")}</p>
+        </div>
+        <nav className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-steel">
           {links.map((item) => (
             <Link key={item.key} href={item.href} className="no-underline hover:text-ink">
               {t(item.key)}
@@ -43,16 +44,14 @@ export function Header({ signedIn }: { signedIn: boolean }) {
               {t("login")}
             </Link>
           )}
-        </nav>
-        <div className="flex items-center gap-2 text-sm">
           <button
             type="button"
             onClick={() => switchLocale(locale === "en" ? "no" : "en")}
-            className="uppercase text-steel hover:text-ink"
+            className="uppercase tracking-wide text-steel hover:text-ink"
           >
-            {locale === "en" ? "no" : "en"}
+            {locale === "en" ? "NO" : "EN"}
           </button>
-        </div>
+        </nav>
       </div>
     </header>
   );

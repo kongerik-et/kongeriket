@@ -7,13 +7,15 @@
     "home": "Home",
     "about": "About",
     "research": "Research",
+    "publications": "Publications",
     "briefs": "Briefs",
     "contact": "Contact",
     "subscribe": "Subscribe",
     "login": "Log in",
     "members": "Members",
     "account": "Account",
-    "logout": "Sign out"
+    "logout": "Sign out",
+    "tagline": "European strategy, sovereignty, civilizational renewal"
   },
   "footer": {
     "later": "Coming later",
@@ -24,12 +26,18 @@
     "tag": "Founded by Erik Dale. Lean shop. One public face."
   },
   "home": {
+    "kicker": "Think tank",
+    "lede": "Research and argument for a Europe worth handing to the next generation. Founder-led. Sourced. No fake mega-team.",
+    "subscribeCta": "Subscribe",
+    "aboutLink": "Mission",
+    "feedTitle": "Latest",
+    "allPublications": "All publications",
+    "feedNote": "A short shelf. Stub items are marked. We do not invent an archive we have not written.",
     "cta": "Join the list. Get the early briefs when we publish them.",
     "missionTitle": "What we are for",
-    "mission": "Kongeriket exists to secure a Europe worth handing to the next generation. We research and argue for European strategy, sovereignty and civilizational renewal: survival, freedom, safety and prosperity of the European peoples.",
+    "mission": "Kongeriket exists to secure a Europe worth handing to the next generation.",
     "latest": "Latest brief",
-    "readBrief": "Read the sample brief",
-    "subscribeCta": "Subscribe"
+    "readBrief": "Read the sample brief"
   },
   "about": {
     "title": "About / Mission",
@@ -37,7 +45,33 @@
   },
   "research": {
     "title": "Research",
-    "intro": "Seats will grow as the work does. Names below are placeholders for Phase 1.",
+    "intro": "Work grows by seat and by form. Forms below are the content ladder. Seats are named placeholders until the work fills them.",
+    "ladderTitle": "Content ladder",
+    "ladderIntro": "Shorter pieces ship first. Longer forms wait until there is something worth the length.",
+    "ladder": [
+      {
+        "name": "Analysis",
+        "blurb": "Short, sharp reads. One claim, sourced."
+      },
+      {
+        "name": "Brief",
+        "blurb": "Operational notes for people who need the early cut."
+      },
+      {
+        "name": "Paper",
+        "blurb": "Longer argument. Rare until the work earns it."
+      },
+      {
+        "name": "State of Europe",
+        "blurb": "Recurring ledger of hard facts, not mood."
+      },
+      {
+        "name": "Podcast",
+        "blurb": "Coming. Audio follows the briefs."
+      }
+    ],
+    "seatsTitle": "Future seats",
+    "seatsIntro": "Names below are placeholders for Phase 1.",
     "seats": [
       {
         "slug": "demography",
@@ -55,7 +89,8 @@
         "blurb": "What a civilization passes on, and what it fails to teach."
       }
     ],
-    "stub": "Seat page coming later."
+    "stub": "Seat page coming later.",
+    "toPublications": "Browse publications"
   },
   "briefs": {
     "title": "Briefs",
@@ -99,5 +134,11 @@
     "intro": "Early briefs and notes as we publish them. No fake community layer.",
     "needLogin": "Members area. Sign in to continue.",
     "empty": "No early briefs yet. When we publish, they land here first."
+  },
+  "publications": {
+    "title": "Publications",
+    "intro": "Briefs, analysis, papers, State of Europe notes, and podcast when it exists. Dates and types first. Erik Dale is the public author.",
+    "back": "All publications",
+    "stubBody": "Full text is not on the shelf yet. This page holds the claim, date, and type so the ladder is visible without pretending the archive is finished."
   }
 }

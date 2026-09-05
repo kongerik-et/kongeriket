@@ -1,5 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { listPublications } from "@/lib/publications";
+import { PublicationRow } from "@/components/PublicationRow";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -8,38 +10,39 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("home");
   const meta = await getTranslations("meta");
-  const briefs = await getTranslations("briefs");
-  const nav = await getTranslations("nav");
+  const items = listPublications().slice(0, 6);
 
   return (
     <div className="space-y-12">
-      <section className="space-y-4">
-        <p className="text-sm uppercase tracking-widest text-steel">Kongeriket</p>
-        <h1 className="max-w-3xl font-serif text-4xl leading-tight md:text-5xl">{meta("line")}</h1>
-        <p className="max-w-2xl text-lg text-steel">{t("cta")}</p>
-        <Link
-          href="/subscribe"
-          className="inline-block rounded-sm bg-signal px-4 py-2 text-paper no-underline hover:opacity-90 hover:text-paper"
-        >
-          {t("subscribeCta")}
-        </Link>
-      </section>
-      <section className="grid gap-6 border-t border-fog pt-10 md:grid-cols-2">
-        <div>
-          <h2 className="font-serif text-2xl">{t("missionTitle")}</h2>
-          <p className="mt-3 leading-relaxed text-steel">{t("mission")}</p>
-          <Link href="/about" className="mt-4 inline-block text-sm">
-            {nav("about")}
+      <section className="max-w-3xl space-y-5 border-b border-fog pb-12">
+        <p className="text-xs uppercase tracking-[0.18em] text-steel">{t("kicker")}</p>
+        <h1 className="font-serif text-4xl leading-[1.15] md:text-5xl">{meta("line")}</h1>
+        <p className="max-w-2xl text-lg leading-relaxed text-steel">{t("lede")}</p>
+        <div className="flex flex-wrap gap-4 pt-2">
+          <Link
+            href="/subscribe"
+            className="inline-block rounded-sm bg-signal px-4 py-2 text-sm text-paper no-underline hover:opacity-90 hover:text-paper"
+          >
+            {t("subscribeCta")}
+          </Link>
+          <Link href="/about" className="inline-block self-center text-sm text-steel no-underline hover:text-ink">
+            {t("aboutLink")}
           </Link>
         </div>
-        <div className="rounded-sm border border-fog p-6">
-          <p className="text-sm uppercase tracking-widest text-steel">{t("latest")}</p>
-          <h3 className="mt-2 font-serif text-xl">{briefs("sampleTitle")}</h3>
-          <p className="mt-2 text-sm text-steel">{briefs("sampleDate")}</p>
-          <p className="mt-3 leading-relaxed">{briefs("sampleExcerpt")}</p>
-          <Link href="/briefs" className="mt-4 inline-block text-sm">
-            {t("readBrief")}
+      </section>
+
+      <section className="space-y-2">
+        <div className="flex items-end justify-between gap-4">
+          <h2 className="font-serif text-2xl">{t("feedTitle")}</h2>
+          <Link href="/publications" className="text-sm text-steel no-underline hover:text-ink">
+            {t("allPublications")}
           </Link>
+        </div>
+        <p className="max-w-2xl text-sm text-steel">{t("feedNote")}</p>
+        <div className="mt-2">
+          {items.map((item) => (
+            <PublicationRow key={item.slug} item={item} locale={locale} />
+          ))}
         </div>
       </section>
     </div>
