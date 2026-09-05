@@ -13,7 +13,7 @@ const links = [
 ];
 
 export function Header({ signedIn }: { signedIn: boolean }) {
-  const t = useTranslations("Nav");
+  const t = useTranslations("nav");
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
