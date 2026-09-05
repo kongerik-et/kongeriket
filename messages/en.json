@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Kongeriket",
-    "line": "A think tank for European strategy, sovereignty and civilizational renewal."
+    "line": "European strategy, sovereignty and civilizational renewal."
   },
   "nav": {
     "home": "Home",
@@ -26,7 +26,7 @@
     "tag": "Founded by Erik Dale. Lean shop. One public face."
   },
   "home": {
-    "kicker": "Think tank",
+    "kicker": "European strategy",
     "lede": "Research and argument for a Europe worth handing to the next generation. Founder-led. Sourced. No fake mega-team.",
     "subscribeCta": "Subscribe",
     "aboutLink": "Mission",
