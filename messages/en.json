@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "siteName": "Kongeriket",
+    "line": "A think tank for European strategy, sovereignty and civilizational renewal."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "research": "Research",
+    "briefs": "Briefs",
+    "contact": "Contact",
+    "subscribe": "Subscribe",
+    "login": "Log in",
+    "members": "Members",
+    "account": "Account",
+    "logout": "Sign out"
+  },
+  "footer": {
+    "later": "Coming later",
+    "papers": "Papers",
+    "podcast": "Podcast",
+    "events": "Events",
+    "privacy": "Privacy",
+    "tag": "Founded by Erik Dale. Lean shop. One public face."
+  },
+  "home": {
+    "cta": "Join the list. Get the early briefs when we publish them.",
+    "missionTitle": "What we are for",
+    "mission": "Kongeriket exists to secure a Europe worth handing to the next generation. We research and argue for European strategy, sovereignty and civilizational renewal: survival, freedom, safety and prosperity of the European peoples.",
+    "latest": "Latest brief",
+    "readBrief": "Read the sample brief",
+    "subscribeCta": "Subscribe"
+  },
+  "about": {
+    "title": "About / Mission",
+    "body": "Kongeriket exists to secure a Europe worth handing to the next generation. We research and argue for European strategy, sovereignty and civilizational renewal: the survival, freedom, safety and prosperity of the European peoples.\n\nNorway is early-warning ground, not a country already fallen. Western hard cases (the UK counts as Europe) are a preview of what waits if nothing changes. Eastern and Central Europe hold the line. We act pan-European without equating Europe with the EU.\n\nFounded by Erik Dale. Lean, honest shop. One public face."
+  },
+  "research": {
+    "title": "Research",
+    "intro": "Seats will grow as the work does. Names below are placeholders for Phase 1.",
+    "seats": [
+      {
+        "slug": "demography",
+        "name": "Demography and cohesion",
+        "blurb": "Population change, parallel societies, and what holds a people together."
+      },
+      {
+        "slug": "sovereignty",
+        "name": "Strategy and sovereignty",
+        "blurb": "Hard power, borders, and European agency without mistaking the EU for Europe."
+      },
+      {
+        "slug": "culture",
+        "name": "Culture and transmission",
+        "blurb": "What a civilization passes on, and what it fails to teach."
+      }
+    ],
+    "stub": "Seat page coming later."
+  },
+  "briefs": {
+    "title": "Briefs",
+    "intro": "Public pages carry sample work. Members get early access to briefs and notes as they appear.",
+    "sampleTitle": "Norway as early warning",
+    "sampleDate": "2026-09-05",
+    "sampleExcerpt": "Norway is not finished. It is early. Trends visible here are a preview of pressures already harder elsewhere in Western Europe.",
+    "membersNote": "Signed-in members will see early briefs here as we publish them. We will not promise a library we have not built."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Email only for now. Forwarding to production addresses waits on an explicit OK.",
+    "general": "General",
+    "erik": "Erik Dale"
+  },
+  "subscribe": {
+    "title": "Subscribe",
+    "intro": "Members get email from Kongeriket and early access to briefs and notes as they appear. Public pages stay free with sample work. We will not promise a library or events we have not built yet.",
+    "email": "Email",
+    "name": "Name (optional)",
+    "language": "Language",
+    "consent": "I agree to receive email from Kongeriket. I can unsubscribe at any time.",
+    "submit": "Join the list",
+    "thanks": "You are on the list stub. Real email delivery is not wired yet."
+  },
+  "login": {
+    "title": "Log in",
+    "intro": "Sign in with email. We send a link.",
+    "email": "Email",
+    "submit": "Send magic link",
+    "sent": "If this were live, we would email a sign-in link. For review, submitting starts a demo session.",
+    "demo": "Enter members area (demo)"
+  },
+  "account": {
+    "title": "Account",
+    "intro": "Stub account page. Language preference and email will live here.",
+    "needLogin": "Sign in to manage your account."
+  },
+  "members": {
+    "title": "Members",
+    "intro": "Early briefs and notes as we publish them. No fake community layer.",
+    "needLogin": "Members area. Sign in to continue.",
+    "empty": "No early briefs yet. When we publish, they land here first."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "siteName": "Kongeriket",
+    "line": "En tenketank for europeisk strategi, suverenitet og sivilisatorisk fornyelse."
+  },
+  "nav": {
+    "home": "Hjem",
+    "about": "Om",
+    "research": "Forskning",
+    "briefs": "Brief",
+    "contact": "Kontakt",
+    "subscribe": "Bli med",
+    "login": "Logg inn",
+    "members": "Medlemmer",
+    "account": "Konto",
+    "logout": "Logg ut"
+  },
+  "footer": {
+    "later": "Kommer senere",
+    "papers": "Papers",
+    "podcast": "Podcast",
+    "events": "Arrangementer",
+    "privacy": "Personvern",
+    "tag": "Grunnlagt av Erik Dale. Lite verksted. Ett offentlig ansikt."
+  },
+  "home": {
+    "cta": "Bli med på listen. Få de tidlige briefene når vi publiserer dem.",
+    "missionTitle": "Det vi står for",
+    "mission": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.",
+    "latest": "Siste brief",
+    "readBrief": "Les eksempelbriefen",
+    "subscribeCta": "Bli med"
+  },
+  "about": {
+    "title": "Om / Misjon",
+    "body": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.\n\nNorge er tidlig varslingsgrunn, ikke et land som allerede har falt. Vestlige hardcase (Storbritannia teller som Europa) er et forhåndsbilde av det som venter hvis ingenting endres. Øst- og Sentral-Europa holder linjen. Vi handler paneuropeisk uten å likestille Europa med EU.\n\nGrunnlagt av Erik Dale. Lite, ærlig verksted. Ett offentlig ansikt."
+  },
+  "research": {
+    "title": "Forskning",
+    "intro": "Setene vokser med arbeidet. Navnene under er plassholdere i fase 1.",
+    "seats": [
+      {
+        "slug": "demography",
+        "name": "Demografi og samhold",
+        "blurb": "Befolkningsendring, parallelsamfunn, og det som holder et folk sammen."
+      },
+      {
+        "slug": "sovereignty",
+        "name": "Strategi og suverenitet",
+        "blurb": "Hard makt, grenser og europeisk handlingsrom uten å ta EU for Europa."
+      },
+      {
+        "slug": "culture",
+        "name": "Kultur og overføring",
+        "blurb": "Det en sivilisasjon gir videre, og det den svikter å lære."
+      }
+    ],
+    "stub": "Seteside kommer senere."
+  },
+  "briefs": {
+    "title": "Brief",
+    "intro": "Offentlige sider har eksempelstoff. Medlemmer får tidlig tilgang til brief og notater etter hvert som de kommer.",
+    "sampleTitle": "Norge som tidlig varsel",
+    "sampleDate": "2026-09-05",
+    "sampleExcerpt": "Norge er ikke ferdig. Det er tidlig. Trender synlige her er et forhåndsbilde av press som allerede er hardere andre steder i Vest-Europa.",
+    "membersNote": "Innloggede medlemmer får tidlige brief her når vi publiserer. Vi lover ikke et bibliotek vi ikke har bygget."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Bare e-post foreløpig. Videresending til produksjonsadresser venter på eksplisitt OK.",
+    "general": "Generelt",
+    "erik": "Erik Dale"
+  },
+  "subscribe": {
+    "title": "Bli med",
+    "intro": "Som medlem får du e-post fra Kongeriket og tidlig tilgang til brief og notater etter hvert som de kommer. Offentlige sider forblir gratis med eksempelstoff. Vi lover ikke bibliotek eller arrangementer vi ikke har bygget ennå.",
+    "email": "E-post",
+    "name": "Navn (valgfritt)",
+    "language": "Språk",
+    "consent": "Jeg godtar å motta e-post fra Kongeriket. Jeg kan melde meg av når som helst.",
+    "submit": "Bli med på listen",
+    "thanks": "Du er på listestubben. Ekte e-postutsending er ikke koblet ennå."
+  },
+  "login": {
+    "title": "Logg inn",
+    "intro": "Logg inn med e-post. Vi sender en lenke.",
+    "email": "E-post",
+    "submit": "Send magisk lenke",
+    "sent": "Hvis dette var live, ville vi sendt en innloggingslenke. For gjennomgang starter innsending en demosesjon.",
+    "demo": "Gå til medlemssider (demo)"
+  },
+  "account": {
+    "title": "Konto",
+    "intro": "Stub for konto. Språkvalg og e-post vil ligge her.",
+    "needLogin": "Logg inn for å administrere kontoen."
+  },
+  "members": {
+    "title": "Medlemmer",
+    "intro": "Tidlige brief og notater når vi publiserer dem. Ingen falsk community-lag.",
+    "needLogin": "Medlemsområde. Logg inn for å fortsette.",
+    "empty": "Ingen tidlige brief ennå. Når vi publiserer, lander de her først."
+  }
+}
