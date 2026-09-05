@@ -15,7 +15,8 @@
     "members": "Medlemmer",
     "account": "Konto",
     "logout": "Logg ut",
-    "tagline": "Harde sannheter. Europeisk strategi. Ett offentlig ansikt."
+    "tagline": "Harde sannheter. Europeisk strategi. Gründerstyrt.",
+    "team": "Lag"
   },
   "footer": {
     "later": "Kommer senere",
@@ -23,13 +24,13 @@
     "podcast": "Podcast",
     "events": "Arrangementer",
     "privacy": "Personvern",
-    "tag": "Erik Dales verksted. Lite. Ærlig. Ett offentlig ansikt."
+    "tag": "Grunnlagt av Erik Dale. Lite verksted. Gründerstyrt."
   },
   "home": {
     "kicker": "Av Erik Dale",
     "headline": "Europa reddes ikke med mykt språk.",
     "lede": "Harde fakta. Klare påstander. Europeisk strategi, suverenitet og sivilisatorisk fornyelse, for dem som fortsatt vil ha et Europa verdt å overlate videre.",
-    "founder": "Kongeriket er Erik Dales verksted. Ett offentlig ansikt. Ingen anonym styre. Ingen falsk megastab.",
+    "founder": "Kongeriket er grunnlagt av Erik Dale. Gründerstyrt. Ingen anonym styre. Ingen falsk stab.",
     "subscribeCta": "Få de tidlige briefene",
     "aboutLink": "Hvorfor dette finnes",
     "feedTitle": "På bordet",
@@ -44,7 +45,8 @@
   },
   "about": {
     "title": "Hvorfor dette finnes",
-    "body": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.\n\nNorge er tidlig varslingsgrunn, ikke et land som allerede har falt. Vestlige hardcase (Storbritannia teller som Europa) er et forhåndsbilde av det som venter hvis ingenting endres. Øst- og Sentral-Europa holder linjen. Vi handler paneuropeisk uten å likestille Europa med EU.\n\nDette er Erik Dales verksted. Lite. Ærlig. Ett offentlig ansikt. Arbeidet bærer hans navn."
+    "body": "Kongeriket finnes for å sikre et Europa verdt å overlate til neste generasjon. Vi forsker og argumenterer for europeisk strategi, suverenitet og sivilisatorisk fornyelse: overlevelse, frihet, trygghet og velstand for de europeiske folkene.\n\nNorge er tidlig varslingsgrunn, ikke et land som allerede har falt. Vestlige hardcase (Storbritannia teller som Europa) er et forhåndsbilde av det som venter hvis ingenting endres. Øst- og Sentral-Europa holder linjen. Vi handler paneuropeisk uten å likestille Europa med EU.\n\nGrunnlagt av Erik Dale. Lite og ærlig. Gründerstyrt i dag. Arbeidet bærer hans navn. Når ekte kolleger kommer, blir de navngitt her. Vi finner ikke på en stab.",
+    "teamLink": "Folk"
   },
   "research": {
     "title": "Forskning",
@@ -143,5 +145,13 @@
     "intro": "Brief, analyse, papers, State of Europe-notater, og podcast når den finnes. Dato og type ligger her. Erik Dale er den offentlige forfatteren. Taksonomien bor på denne hyllen. Forsiden leder med påstander.",
     "back": "Alle publikasjoner",
     "stubBody": "Full tekst er ikke på hyllen ennå. Denne siden holder påstand, dato og type, så stigen er synlig uten å late som arkivet er ferdig."
+  },
+  "team": {
+    "title": "Lag",
+    "intro": "Gründerstyrt nå. Navn dukker opp når ekte folk blir med. Ingen fantom-orgkart.",
+    "founderRole": "Grunnlegger",
+    "founderBio": "Europeisk strategi, suverenitet og sivilisatorisk fornyelse. Kongerikets offentlige ansikt.",
+    "laterTitle": "Forfattere og fellows",
+    "later": "Denne hyllen vokser når arbeidet fortjener det. Tomme seter forblir tomme til noen ekte fyller dem."
   }
 }

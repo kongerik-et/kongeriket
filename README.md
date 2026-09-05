@@ -41,6 +41,7 @@ npm run start --prefix /workspace/kongeriket-site
 |----|----|
 | `/en` | `/no` |
 | `/en/about` | `/no/om` |
+| `/en/team` | `/no/lag` |
 | `/en/research` | `/no/forskning` |
 | `/en/briefs` | `/no/brief` |
 | `/en/briefs/[slug]` | `/no/brief/[slug]` |

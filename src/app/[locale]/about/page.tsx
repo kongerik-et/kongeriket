@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -16,6 +17,14 @@ export default async function AboutPage({ params }: Props) {
           {para}
         </p>
       ))}
+      <p className="pt-2">
+        <Link
+          href="/team"
+          className="border-b border-signal text-sm font-medium text-ink no-underline hover:text-signal"
+        >
+          {t("teamLink")}
+        </Link>
+      </p>
     </article>
   );
 }

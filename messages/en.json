@@ -15,7 +15,8 @@
     "members": "Members",
     "account": "Account",
     "logout": "Sign out",
-    "tagline": "Hard truths. European strategy. One public face."
+    "tagline": "Hard truths. European strategy. Founder-led.",
+    "team": "Team"
   },
   "footer": {
     "later": "Coming later",
@@ -23,13 +24,13 @@
     "podcast": "Podcast",
     "events": "Events",
     "privacy": "Privacy",
-    "tag": "Erik Dale’s shop. Lean. Honest. One public face."
+    "tag": "Founded by Erik Dale. Lean shop. Founder-led."
   },
   "home": {
     "kicker": "By Erik Dale",
     "headline": "Europe will not be saved by soft language.",
     "lede": "Hard facts. Clear claims. European strategy, sovereignty and civilizational renewal, for people who still want a Europe worth handing on.",
-    "founder": "Kongeriket is Erik Dale’s shop. One public face. No anonymous board. No fake mega-team.",
+    "founder": "Kongeriket is founded by Erik Dale. Founder-led. No anonymous board. No fake staff.",
     "subscribeCta": "Get the early briefs",
     "aboutLink": "Why this exists",
     "feedTitle": "On the table",
@@ -44,7 +45,8 @@
   },
   "about": {
     "title": "Why this exists",
-    "body": "Kongeriket exists to secure a Europe worth handing to the next generation. We research and argue for European strategy, sovereignty and civilizational renewal: the survival, freedom, safety and prosperity of the European peoples.\n\nNorway is early-warning ground, not a country already fallen. Western hard cases (the UK counts as Europe) are a preview of what waits if nothing changes. Eastern and Central Europe hold the line. We act pan-European without equating Europe with the EU.\n\nThis is Erik Dale’s shop. Lean. Honest. One public face. The work carries his name."
+    "body": "Kongeriket exists to secure a Europe worth handing to the next generation. We research and argue for European strategy, sovereignty and civilizational renewal: the survival, freedom, safety and prosperity of the European peoples.\n\nNorway is early-warning ground, not a country already fallen. Western hard cases (the UK counts as Europe) are a preview of what waits if nothing changes. Eastern and Central Europe hold the line. We act pan-European without equating Europe with the EU.\n\nFounded by Erik Dale. Lean and honest. Founder-led today. The work carries his name. When real colleagues join, they will be named here. We will not invent a staff.",
+    "teamLink": "People"
   },
   "research": {
     "title": "Research",
@@ -143,5 +145,13 @@
     "intro": "Briefs, analysis, papers, State of Europe notes, and podcast when it exists. Dates and types live here. Erik Dale is the public author. Taxonomy stays on this shelf. The homepage leads with claims.",
     "back": "All publications",
     "stubBody": "Full text is not on the shelf yet. This page holds the claim, date, and type so the ladder is visible without pretending the archive is finished."
+  },
+  "team": {
+    "title": "Team",
+    "intro": "Founder-led now. Names appear when real people join. No phantom org chart.",
+    "founderRole": "Founder",
+    "founderBio": "European strategy, sovereignty and civilizational renewal. Public face of Kongeriket.",
+    "laterTitle": "Authors & fellows",
+    "later": "This shelf grows when the work earns it. Empty seats stay empty until someone real fills them."
   }
 }
